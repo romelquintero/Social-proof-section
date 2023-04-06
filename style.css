@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  padding: 11.8rem 16.5rem 10rem 16.5rem;
+  background-image: url(images/bg-pattern-top-desktop.svg),
+    url(images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right bottom;
+  margin: 0 auto;
+}
+
+/* TOP SECTION */
+
+/* Left Section */
+.top-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.left-section {
+  width: 45rem;
+}
+
+.left-section h1 {
+  color: #512051;
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  letter-spacing: -0.2rem;
+
+  margin-bottom: 1.6rem;
+}
+
+.left-section p {
+  color: #927b91;
+  font-size: 1.9rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  letter-spacing: -0.06rem;
+}
+
+/* Right Section */
+.right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  justify-self: end;
+}
+
+.box {
+  color: #512051;
+  background-color: #f7f2f7;
+  width: 44.5rem;
+  padding: 2rem 3.2rem;
+  border-radius: 0.8rem;
+
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+
+  display: flex;
+  gap: 3.245rem;
+}
+
+.stars-box {
+  display: flex;
+  gap: 0.84rem;
+}
+
+.rating-2 {
+  margin-left: 4.8rem;
+}
+
+.rating-3 {
+  margin-left: 9.5rem;
+}
+
+/* BOTTOM SECTION */
+.bottom-section {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  margin-top: 7.2rem;
+}
+.card {
+  color: #ffffff;
+  background-color: #512051;
+  max-width: 35rem;
+  height: 100%;
+  border-radius: 0.8rem;
+  padding: 4rem 3.2rem 3.5rem 3.2rem;
+}
+
+.header-card {
+  display: flex;
+  gap: 2.3rem;
+}
+
+.header-card span {
+  display: block;
+  color: #ee69a4;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.header-card img {
+  width: 4rem;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.card p {
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  letter-spacing: -0.03rem;
+}
+
+.card p:last-child {
+  margin-top: 3.1rem;
+}
+
+.header-card p {
+  font-weight: 700;
+}
+
+.card-2 {
+  margin-top: 1.6rem;
+}
+
+.card-3 {
+  margin-top: 3.2rem;
+}

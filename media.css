@@ -1,0 +1,62 @@
+@media (max-width: 75em) {
+  .top-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-section {
+    width: 100%;
+    text-align: center;
+  }
+  .right-section {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .box {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .rating-2,
+  .rating-3 {
+    margin-left: 0;
+  }
+
+  main {
+    padding: 2.8rem 4.5rem 2rem 4.5rem;
+  }
+
+  .left-section p {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 50em) {
+  .bottom-section {
+    flex-direction: column;
+    gap: 2em;
+  }
+  .card {
+    max-width: 100%;
+  }
+  .card-2,
+  .card-3 {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 43em) {
+  main {
+    padding: 8.2rem 2.4rem 9.9rem 2.4rem;
+  }
+  .right-section {
+    flex-direction: column;
+  }
+  .left-section h1 {
+    margin-bottom: 3.9rem;
+  }
+}
