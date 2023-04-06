@@ -61,7 +61,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
-
+margin-top: 2.8rem;
   justify-self: end;
 }
 
