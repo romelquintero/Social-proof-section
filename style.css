@@ -60,7 +60,7 @@ main {
 .right-section {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 1.6rem;
 
   justify-self: end;
 }
